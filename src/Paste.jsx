@@ -4,7 +4,7 @@ import { FaRegEye } from "react-icons/fa";
 import { MdEdit, MdDelete } from "react-icons/md";
 import { IoCopy } from "react-icons/io5";
 import { FaShareAlt } from "react-icons/fa";
-import { removeFromPastes } from "./redux/PasteSlice";
+import { removeFromPastes } from "./Redux/PasteSlice";
 import { NavLink } from "react-router-dom";
 import toast from "react-hot-toast";
 

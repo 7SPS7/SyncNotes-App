@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams, useNavigate } from 'react-router-dom'; // Import useNavigate
-import { updateToPastes } from './redux/PasteSlice';
+import { updateToPastes } from './Redux/PasteSlice';
 
 const Update = () => {
     const { id } = useParams();
